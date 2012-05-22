@@ -21,6 +21,7 @@
 		CE405D671561A35D0036CBBB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE405D4C1561A35D0036CBBB /* CoreData.framework */; };
 		CE405D6F1561A35D0036CBBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE405D6D1561A35D0036CBBB /* InfoPlist.strings */; };
 		CE405D721561A35D0036CBBB /* nothingofnoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE405D711561A35D0036CBBB /* nothingofnoteTests.m */; };
+		CE405D7C1561A3800036CBBB /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE405D7B1561A3800036CBBB /* iPhoneStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,19 +40,20 @@
 		CE405D481561A35D0036CBBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE405D4A1561A35D0036CBBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CE405D4C1561A35D0036CBBB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		CE405D501561A35D0036CBBB /* nothingofnote-Info.plist */ = {isa = PBXFileReference; path = "nothingofnote-Info.plist"; sourceTree = "<group>"; };
+		CE405D501561A35D0036CBBB /* nothingofnote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nothingofnote-Info.plist"; sourceTree = "<group>"; };
 		CE405D521561A35D0036CBBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE405D541561A35D0036CBBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE405D561561A35D0036CBBB /* nothingofnote-Prefix.pch */ = {isa = PBXFileReference; path = "nothingofnote-Prefix.pch"; sourceTree = "<group>"; };
-		CE405D571561A35D0036CBBB /* zeroseAppDelegate.h */ = {isa = PBXFileReference; path = zeroseAppDelegate.h; sourceTree = "<group>"; };
+		CE405D561561A35D0036CBBB /* nothingofnote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nothingofnote-Prefix.pch"; sourceTree = "<group>"; };
+		CE405D571561A35D0036CBBB /* zeroseAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zeroseAppDelegate.h; sourceTree = "<group>"; };
 		CE405D581561A35D0036CBBB /* zeroseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zeroseAppDelegate.m; sourceTree = "<group>"; };
 		CE405D5B1561A35D0036CBBB /* nothingofnote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nothingofnote.xcdatamodel; sourceTree = "<group>"; };
 		CE405D621561A35D0036CBBB /* nothingofnoteTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nothingofnoteTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE405D631561A35D0036CBBB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CE405D6C1561A35D0036CBBB /* nothingofnoteTests-Info.plist */ = {isa = PBXFileReference; path = "nothingofnoteTests-Info.plist"; sourceTree = "<group>"; };
+		CE405D6C1561A35D0036CBBB /* nothingofnoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nothingofnoteTests-Info.plist"; sourceTree = "<group>"; };
 		CE405D6E1561A35D0036CBBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CE405D701561A35D0036CBBB /* nothingofnoteTests.h */ = {isa = PBXFileReference; path = nothingofnoteTests.h; sourceTree = "<group>"; };
+		CE405D701561A35D0036CBBB /* nothingofnoteTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nothingofnoteTests.h; sourceTree = "<group>"; };
 		CE405D711561A35D0036CBBB /* nothingofnoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nothingofnoteTests.m; sourceTree = "<group>"; };
+		CE405D7B1561A3800036CBBB /* iPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				CE405D571561A35D0036CBBB /* zeroseAppDelegate.h */,
 				CE405D581561A35D0036CBBB /* zeroseAppDelegate.m */,
+				CE405D7B1561A3800036CBBB /* iPhoneStoryboard.storyboard */,
 				CE405D5A1561A35D0036CBBB /* nothingofnote.xcdatamodeld */,
 				CE405D4F1561A35D0036CBBB /* Supporting Files */,
 			);
@@ -224,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE405D531561A35D0036CBBB /* InfoPlist.strings in Resources */,
+				CE405D7C1561A3800036CBBB /* iPhoneStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
